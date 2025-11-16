@@ -2,6 +2,46 @@
 
 An AI-powered web application builder that generates React applications through natural language descriptions using multi-agent orchestration with LangGraph.
 
+## 🎯 User-Facing Features
+
+| Feature | Description | User Benefit | Typical Time |
+|---------|-------------|--------------|--------------|
+| **🔐 User Authentication** | Sign up, login, and secure account management with JWT tokens | Protect your projects and track your work | 30 seconds |
+| **💬 Natural Language Prompts** | Describe what you want in plain English | No coding knowledge required | 1 minute |
+| **⚛️ Web App Generation** | AI creates full React applications from your description | Get working apps (todo lists, calculators, dashboards) instantly | 2-5 minutes |
+| **⛓️ Smart Contract Creation** | Generate and deploy Solidity contracts (ERC20, NFT, DAO, etc.) | Launch blockchain projects without writing Solidity | 2-3 minutes |
+| **🚀 Full DApp Builder** | Complete blockchain apps with smart contract + Web3 UI | End-to-end DApp in one request | 5-10 minutes |
+| **🔄 Real-Time Progress Updates** | Live WebSocket streaming of build status | Watch your app being built step-by-step | Continuous |
+| **📁 File Explorer** | Browse all generated files (components, styles, config) | Understand project structure | Instant |
+| **💻 Code Viewer** | Syntax-highlighted code with Monaco Editor | Review and learn from generated code | Instant |
+| **👁️ Live Preview** | Instantly preview your app in embedded iframe | Test functionality without deployment | Instant |
+| **🔌 Wallet Connection** | Automatic Web3 wallet integration (RainbowKit) for DApps | Users can connect MetaMask, WalletConnect, etc. | Pre-configured |
+| **📊 Project Dashboard** | View all your projects in one place | Manage multiple apps easily | Instant |
+| **💾 Auto-Save** | Projects automatically persist to database | Never lose your work | Automatic |
+| **📜 Message History** | Complete chat log of all interactions | Review past conversations and changes | Instant |
+| **⬇️ Project Download** | Download entire project as ZIP file | Take your code anywhere | Few seconds |
+| **🌐 Multi-Network Support** | Deploy contracts to 10+ testnets (Sepolia, Base, Polygon, etc.) | Test on your preferred blockchain | Configurable |
+| **🎨 Modern UI/UX** | Beautiful TailwindCSS styling pre-configured | Professional-looking apps by default | Built-in |
+| **🔁 Iterative Development** | Chat with AI to modify and improve apps | Refine your project with follow-up requests | 2-5 min/iteration |
+| **💰 Token System** | 2 free project creations per day | Fair usage with daily resets | 24-hour reset |
+| **📝 Contract Verification** | Smart contracts auto-verified on block explorers | Transparency and trust for DApps | Automatic |
+| **📊 Contract Dashboard** | View all deployed contracts with addresses and ABIs | Track your blockchain deployments | Instant |
+| **🔍 Error Recovery** | AI automatically fixes compilation and runtime errors | Fewer failures, higher success rate | Automatic |
+| **📱 Responsive Design** | All generated apps work on mobile and desktop | Reach users on any device | Built-in |
+
+### What You Can Build
+
+| Category | Examples | Time Required |
+|----------|----------|---------------|
+| **Productivity Apps** | Todo lists, note-taking, timers, calculators | 2-3 minutes |
+| **Data Apps** | Dashboards, analytics, charts, forms | 3-5 minutes |
+| **Creative Apps** | Drawing tools, image editors, markdown editors | 3-5 minutes |
+| **ERC20 Tokens** | Governance tokens, utility tokens, meme coins | 2 minutes |
+| **NFT Collections** | Art collections, gaming NFTs, membership passes | 3 minutes |
+| **DeFi Protocols** | Staking platforms, lending, token swaps | 5-8 minutes |
+| **DAOs** | Voting systems, treasury management, proposals | 5-10 minutes |
+| **Full DApps** | NFT marketplaces, token launchpads, games | 8-12 minutes |
+
 ## Architecture
 
 ### Backend
